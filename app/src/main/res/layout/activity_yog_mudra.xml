@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YogaSonActivity">
+
+    <TextView
+        android:id="@+id/yogmudra"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF8C00"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="YogMudra"
+        android:textColor="#FFFACD"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/aasanimage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@+id/yogmudra"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/asthamamudra" />
+
+    <TextView
+        android:id="@+id/aasanname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aasanimage"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Asthamamudra"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

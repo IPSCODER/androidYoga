@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageView"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameLogin"
+        android:layout_marginTop="40dp"
+        android:hint="password"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/passwordLogin"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:layout_below="@+id/login"/>
+
+
+
+
+</RelativeLayout>

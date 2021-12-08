@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YogaSonActivity">
+
+    <TextView
+        android:id="@+id/yogaasan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF8C00"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:text="YogAasan"
+        android:textColor="#FFFACD"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/aasanimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yogaasan"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="60dp"
+        app:srcCompat="@drawable/asan" />
+
+    <TextView
+        android:id="@+id/aasanname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/aasanimage"
+        android:text="Sukhasana" />
+
+    <TextView
+        android:id="@+id/aasaninfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/aasanname"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:text="This is comforting pose focusing on breath
+and controlling stress.
+It helps in lung function and asthma.
+Keep yourself seated, while your legs remain crossed.
+In case, you sense any kind of discomfort around your hips
+or lower back, place a towel under your tailbone for additional
+support. In this pose, bring your left hand to your belly and right hand to your heart.
+Keep your eyes closed. Draw your stomach in and
+ lift your chest for the perfect posture. Take even breath at a slower pace, and be in this pose for around 5 to 10 minutes." />
+
+
+</RelativeLayout>
